@@ -1,0 +1,6 @@
+<div class="acs-input-container">
+    <div class="acs-input-container__icon" *ngIf="icon">
+        <img src="fontawesome/{{icon}}.svg" height="24px" width="24px"/>
+    </div>
+    <input type="text" [placeholder]="placeholder ?? ''"/>
+</div>

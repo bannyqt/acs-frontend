@@ -1,0 +1,33 @@
+.navbar {
+    .navbar-logo {
+        padding-left: 8%;
+        img {
+            height: 48px;
+        }
+    }
+
+    .navbar-links {
+        margin-left: auto;
+        padding-right: 16%;
+        font-size: large;
+
+        a {
+            text-decoration: none;
+            /*color: #73C7C7;*/
+            color: #4b9c9c;
+            font-weight: bolder;
+            padding: 10px 20px 10px 20px;
+
+            &:hover {
+                text-decoration: none;
+                color: #434343;
+            }
+        }
+    }
+
+    display: flex;
+    height: 64px;
+    align-items: center;
+    padding: 0px 48px 0px 48px;
+    background-color: #ffffff;
+}

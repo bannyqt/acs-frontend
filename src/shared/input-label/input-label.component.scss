@@ -1,0 +1,26 @@
+.acs-input-container {
+    display: flex;
+    background-color: #fff;
+    width: 300px;
+
+    &__icon {
+        width: 42px;
+        height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            opacity: 0.42;
+        }
+    }
+
+    input {
+        width: calc(100% - 42px);
+        appearance: none; /* Remove default appearance */
+        -webkit-appearance: none; /* For Safari */
+        -moz-appearance: none; /* For Firefox */
+        outline: none; /* Remove focus outline */
+        border: none; /* Remove default border */
+    }
+}

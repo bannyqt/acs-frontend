@@ -1,0 +1,26 @@
+.acs-contact-us-body {
+    background-color: #73C7C7;
+    color: #ffffff;
+    height: 670px;
+    
+    &__title {
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+
+        &__contact {
+            flex: 1;
+            padding: 0px 20px 0px 20px;
+        }
+
+        &__socials {
+            flex: 1
+        }
+    }
+}
